@@ -33,6 +33,11 @@ body {
   gap: 0.6rem;
 }
 
+.searchForm {
+  display: flex;
+  gap: 0.6rem;
+}
+
 .searchInput {
   width: 32rem;
   height: 5rem;
@@ -70,4 +75,22 @@ body {
   background: #f3d9fa;
   border-radius: 0.4rem;
   box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-left: 2rem;
+  font-size: 3.8rem;
+  color: #474747;
+}
+
+.pronoun {
+  font-size: 1.6rem;
+  margin-left: 2.2rem;
+  color: #585858;
+}
+
+.definition {
+  color: #1e0048;
+  font-size: 4rem;
+  margin: 1.8rem 0 0 1.5rem;
 }
